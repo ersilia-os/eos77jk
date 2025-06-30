@@ -43,12 +43,19 @@ _10 of 640 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos77jk](https://hub.docker.com/r/ersiliaos/eos77jk)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos77jk.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos77jk.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `5456`
 - **Environment Size (Mb):** `1309`
+- **Image Size (Mb):** `9375.15`
 
+**Computational Performance (seconds):**
+- 10 inputs: `39.1`
+- 100 inputs: `99.89`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d](https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d)
