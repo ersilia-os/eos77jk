@@ -1,6 +1,6 @@
 # Chemical Checker Signaturizer 3D D1-5
 
-Building on the Chemical Checker bioactivity signatures (available as eos4u6p), the authors use the relation between stereoisomers and bioactivity of over 1M compounds to train stereochemically-aware signaturizers that better describe small molecule bioactivity properties. This model corresponds to the Chemical Checker spaces D1, D2, D3, D4 and D5.
+Summarises how a compound is expected to perturb cells, drawing on the five D spaces of the Chemical Checker: gene expression response, growth inhibition across cancer lines, morphology, cell bioassays and chemical genetics. The signaturizers behind it were trained on 3D structures following evidence that roughly 40% of stereoisomer pairs among a million-plus compounds behave differently. Cellular signatures are inferred from structure alone, so they anticipate rather than replace phenotypic screening.
 
 This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-06-25.Last packaged on 2025-12-30.
 ### Output
 - **Output Dimension:** `640`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Vector representation of a molecule
+- **Interpretation:** 640 stereochemistry-aware bioactivity features spanning the five cell spaces of the Chemical Checker.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
